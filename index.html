@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138045171-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-138045171-1');
+	</script>
+
+	<meta charset="utf-8">
+	<title>Beshin</title>
+	<meta name="description"
+		content="Potrzebujesz stronę WWW? Odpowiedź jest prosta. Beshin! Pozwól nam stworzyć znakomitą wizytówkę dla Twojej firmy.">
+	<meta name="keywords"
+		content="tworzenie stron internetowych, strony internetowe, strony www, pozycjonowanie stron internetowych, pozycjonowanie, projektowanie stron www, front-end, strony mobilne, web design, responsive web design, progressive web app, marketing, beshin, rybnik">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS, RESPONSIVE, FONT -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+
+	<meta property="og:title" content="Potrzebujesz stronę internetową?">
+	<meta property="og:url" content="https://www.beshin.pl">
+	<meta property="og:description"
+		content="Odpowiedź jest prosta. Beshin! Pozwól nam stworzyć znakomitą wizytówkę dla Twojej firmy.">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="https://i.ibb.co/K78TTvL/og-img.jpg">
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta property="og:image:alt" content="Tworzenie stron internetowych">
+
+	<link rel="manifest" href="/manifest.json">
+
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<meta name="apple-mobile-web-app-title" content="Beshin">
+	<meta name="application-name" content="Beshin">
+
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<nav class="navbar">
+		<div class="navbar-wrapper">
+			<div class="navbar__box-logo">
+				<h1 class="navbar__logo">
+					<a href="./" class="hvr-bob">
+						beshin
+					</a>
+				</h1>
+			</div>
+			<div class="navbar__hamburger">
+				<button class="navbar__menu-toggle" type="button" aria-label="menu" aria-controls="main-menu">
+					<svg class="icon-menu" viewBox="0 0 124 124">
+						<path d="M112,6H12C5.4,6,0,11.4,0,18s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,6,112,6z" />
+						<path
+							d="M112,50H12C5.4,50,0,55.4,0,62c0,6.6,5.4,12,12,12h100c6.6,0,12-5.4,12-12C124,55.4,118.6,50,112,50z" />
+						<path d="M112,94H12c-6.6,0-12,5.4-12,12s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,94,112,94z" />
+					</svg>
+				</button>
+			</div>
+			<ul class="navbar__list" id="main-menu">
+				<li class="navbar__item">
+					<a href="#strona-glowna" class="hvr-forward navbar--hvr">strona główna</a>
+				</li>
+				<li class="navbar__item">
+					<a class="hvr-forward navbar--hvr" href="#o-nas">o nas</a>
+				</li>
+				<li class="navbar__item">
+					<a class="hvr-forward navbar--hvr" href="#portfolio">portfolio</a>
+				</li>
+				<li class="navbar__item">
+					<a class="hvr-forward navbar--hvr" href="#kontakt">kontakt</a>
+				</li>
+				<li class="navbar__item">
+					<a class="hvr-forward navbar--hvr" href="./">blog</a>
+				</li>
+				<li class="navbar__item">
+					<a href="./" class="padding hvr-forward navbar--hvr">
+						<div class="icon-wrapper">
+							polski
+							<svg class="icon-nav" viewBox="0 0 512 512" aria-hidden="true">
+								<circle style="fill:#F0F0F0;" cx="256" cy="256" r="256" />
+								<path style="fill:#D80027;"
+									d="M512,256c0,141.384-114.616,256-256,256S0,397.384,0,256" />
+							</svg>
+						</div>
+					</a>
+					<ul>
+						<a class="hvr-forward navbar--hvr" href="./">
+							<div class="icon-wrapper">
+								english
+								<svg class="icon-nav" viewBox="0 0 512 512" aria-hidden="true">
+									<circle style="fill:#F0F0F0;" cx="256" cy="256" r="256" />
+									<path style="fill:#0052B4;"
+										d="M52.92,100.142c-20.109,26.163-35.272,56.318-44.101,89.077h133.178L52.92,100.142z" />
+									<path style="fill:#0052B4;"
+										d="M503.181,189.219c-8.829-32.758-23.993-62.913-44.101-89.076l-89.075,89.076H503.181z" />
+									<path style="fill:#0052B4;" d="M8.819,322.784c8.83,32.758,23.993,62.913,44.101,89.075l89.074-89.075L8.819,322.784L8.819,322.784
+		z" />
+									<path style="fill:#0052B4;"
+										d="M411.858,52.921c-26.163-20.109-56.317-35.272-89.076-44.102v133.177L411.858,52.921z" />
+									<path style="fill:#0052B4;"
+										d="M100.142,459.079c26.163,20.109,56.318,35.272,89.076,44.102V370.005L100.142,459.079z" />
+									<path style="fill:#0052B4;"
+										d="M189.217,8.819c-32.758,8.83-62.913,23.993-89.075,44.101l89.075,89.075V8.819z" />
+									<path style="fill:#0052B4;"
+										d="M322.783,503.181c32.758-8.83,62.913-23.993,89.075-44.101l-89.075-89.075V503.181z" />
+									<path style="fill:#0052B4;"
+										d="M370.005,322.784l89.075,89.076c20.108-26.162,35.272-56.318,44.101-89.076H370.005z" />
+									<path style="fill:#D80027;" d="M509.833,222.609h-220.44h-0.001V2.167C278.461,0.744,267.317,0,256,0
+		c-11.319,0-22.461,0.744-33.391,2.167v220.44v0.001H2.167C0.744,233.539,0,244.683,0,256c0,11.319,0.744,22.461,2.167,33.391
+		h220.44h0.001v220.442C233.539,511.256,244.681,512,256,512c11.317,0,22.461-0.743,33.391-2.167v-220.44v-0.001h220.442
+		C511.256,278.461,512,267.319,512,256C512,244.683,511.256,233.539,509.833,222.609z" />
+									<path style="fill:#D80027;" d="M322.783,322.784L322.783,322.784L437.019,437.02c5.254-5.252,10.266-10.743,15.048-16.435
+		l-97.802-97.802h-31.482V322.784z" />
+									<path style="fill:#D80027;" d="M189.217,322.784h-0.002L74.98,437.019c5.252,5.254,10.743,10.266,16.435,15.048l97.802-97.804
+		V322.784z" />
+									<path style="fill:#D80027;" d="M189.217,189.219v-0.002L74.981,74.98c-5.254,5.252-10.266,10.743-15.048,16.435l97.803,97.803
+		H189.217z" />
+									<path style="fill:#D80027;" d="M322.783,189.219L322.783,189.219L437.02,74.981c-5.252-5.254-10.743-10.266-16.435-15.047
+		l-97.802,97.803V189.219z" />
+								</svg>
+							</div>
+						</a>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div id="strona-glowna"></div>
+	<header class="header">
+		<p class="header_title">Ładna strona!<br>Chcesz też?</p>
+		<p class="header_desc">Wyjdź z podziemia i pokaż się z jak najlepszej strony, którą dla Ciebie stworzymy.</p>
+		<ul class="box-container">
+			<li class="box hvr-bob"></li>
+			<li class="box hvr-bob"></li>
+			<li class="box hvr-bob"></li>
+		</ul>
+	</header>
+	<div id="o-nas"></div>
+	<section class="section section--background">
+		<article class="desc">
+			<h2 class="section_header">o nas</h2>
+			<section class="desc_block">
+				<h3 class="block_header"><svg class='block_icon' viewBox="0 0 32 32" aria-hidden="true">
+						<path
+							d="M24 24.082v-1.649c2.203-1.241 4-4.337 4-7.432 0-4.971 0-9-6-9s-6 4.029-6 9c0 3.096 1.797 6.191 4 7.432v1.649c-6.784 0.555-12 3.888-12 7.918h28c0-4.030-5.216-7.364-12-7.918z">
+						</path>
+						<path
+							d="M10.225 24.854c1.728-1.13 3.877-1.989 6.243-2.513-0.47-0.556-0.897-1.176-1.265-1.844-0.95-1.726-1.453-3.627-1.453-5.497 0-2.689 0-5.228 0.956-7.305 0.928-2.016 2.598-3.265 4.976-3.734-0.529-2.39-1.936-3.961-5.682-3.961-6 0-6 4.029-6 9 0 3.096 1.797 6.191 4 7.432v1.649c-6.784 0.555-12 3.888-12 7.918h8.719c0.454-0.403 0.956-0.787 1.506-1.146z">
+						</path>
+					</svg> Kim jesteśmy?</h3>
+				<p class="block_text">Ludźmi, którzy chcą stworzyć coś więcej. Strony WWW to nie tylko nasza praca, lecz
+					pasja w
+					której, dzięki wam możemy się codziennie realizować. Tworząc projekt dajemy z siebie 100% i to
+					właśnie, dlatego
+					klienci tak bardzo cenią sobie nasze efekty.</p>
+			</section>
+			<section class="desc_block">
+				<h3 class="block_header"><svg class='block_icon' viewBox="0 0 32 32" aria-hidden="true">
+						<path
+							d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z">
+						</path>
+					</svg> Dlaczego my?</h3>
+				<p class="block_text">Każda firma skupia się, żeby wykonać projekt i zebrać pieniądze. My mamy inne
+					założenie,
+					zależy nam aby klient był dumny i widział efekty! Powstaliśmy niedawno, ale już teraz dostrzegamy,
+					że to się
+					sprawdza, wybór należy do Ciebie.</p>
+			</section>
+			<section class="desc_block">
+				<h3 class="block_header"><svg class='block_icon' viewBox="0 0 32 32" aria-hidden="true">
+						<path
+							d="M16 6c-6.979 0-13.028 4.064-16 10 2.972 5.936 9.021 10 16 10s13.027-4.064 16-10c-2.972-5.936-9.021-10-16-10zM23.889 11.303c1.88 1.199 3.473 2.805 4.67 4.697-1.197 1.891-2.79 3.498-4.67 4.697-2.362 1.507-5.090 2.303-7.889 2.303s-5.527-0.796-7.889-2.303c-1.88-1.199-3.473-2.805-4.67-4.697 1.197-1.891 2.79-3.498 4.67-4.697 0.122-0.078 0.246-0.154 0.371-0.228-0.311 0.854-0.482 1.776-0.482 2.737 0 4.418 3.582 8 8 8s8-3.582 8-8c0-0.962-0.17-1.883-0.482-2.737 0.124 0.074 0.248 0.15 0.371 0.228v0zM16 13c0 1.657-1.343 3-3 3s-3-1.343-3-3 1.343-3 3-3 3 1.343 3 3z">
+						</path>
+					</svg> Pozycjonowanie</h3>
+				<p class="block_text">Należymy do młodego pokolenia, dlatego najlepiej wiemy jak pokazać się w
+					internecie. Chcesz
+					wybić się spośród tysiąca witryn, aby Twoja firma została zauważona? Wypozycjonujemy Twoją stronę a
+					Ty będziesz
+					mógł się cieszyć nowymi odwiedzającymi oraz klientami!</p>
+			</section>
+			<section class="desc_block">
+				<h3 class="block_header"><svg class='block_icon' viewBox="0 0 32 32" aria-hidden="true">
+						<path
+							d="M23 0h-14c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3zM12 1.5h8v1h-8v-1zM16 30c-1.105 0-2-0.895-2-2s0.895-2 2-2 2 0.895 2 2-0.895 2-2 2zM24 24h-16v-20h16v20z">
+						</path>
+					</svg> Progressive Web App</h3>
+				<p class="block_text">Chciałbyś, aby Twoja strona zachowywała się jak aplikacja mobilna, do której
+					dostęp umożliwia
+					kliknięcie ikony na ekranie startowym? Jeśli tak, to świetnie trafiłeś! Każdy z naszych projektów
+					spełnia
+					założenia PWA, dzięki czemu Twoja witryna zyska w oczach klientów na innowacyjności oraz będzie
+					znacznie szybsza.</p>
+			</section>
+		</article>
+	</section>
+	<div id="portfolio"></div>
+	<section class="section section--padding">
+		<div class="section_content">
+			<h2 class="header--largest">portfolio</h2>
+			<p class="header--smaller">portfolio</p>
+			<p class="header--smallest">portfolio</p>
+			<p class="section_desc">Istniejemy od niedawna, lecz już teraz możemy pochwalić się projektami, które
+				zwiększyły
+				sprzedaż naszych klientów. Nasz programista Wojtek zakodował nie jedną świetną stronę. Pozwól mu
+				stworzyć również
+				coś dla Ciebie.</p>
+			<div class="btn-wrapper"><a href="#kontakt" class="btn hvr-pulse">skontaktuj się
+					<svg class="icon-btn" viewBox="0 0 36 32" aria-hidden="true">
+						<path
+							d="M34 28.161c0 1.422 0.813 2.653 2 3.256v0.498c-0.332 0.045-0.671 0.070-1.016 0.070-2.125 0-4.042-0.892-5.398-2.321-0.819 0.218-1.688 0.336-2.587 0.336-4.971 0-9-3.582-9-8s4.029-8 9-8c4.971 0 9 3.582 9 8 0 1.73-0.618 3.331-1.667 4.64-0.213 0.463-0.333 0.979-0.333 1.522zM16 0c8.702 0 15.781 5.644 15.995 12.672-1.537-0.685-3.237-1.047-4.995-1.047-2.986 0-5.807 1.045-7.942 2.943-2.214 1.968-3.433 4.607-3.433 7.432 0 1.396 0.298 2.747 0.867 3.993-0.163 0.004-0.327 0.007-0.492 0.007-0.849 0-1.682-0.054-2.495-0.158-3.437 3.437-7.539 4.053-11.505 4.144v-0.841c2.142-1.049 4-2.961 4-5.145 0-0.305-0.024-0.604-0.068-0.897-3.619-2.383-5.932-6.024-5.932-10.103 0-7.18 7.163-13 16-13z">
+						</path>
+					</svg>
+				</a></div>
+		</div>
+		<div class="section_gallery">
+			<a href="https://konradbednarek.github.io/AGstudio/" target="_blank" rel="noopener" class="gallery_item">
+				<span class="hide">Projekt strony - AG Studio</span>
+				<div class="gallery_wrapper">
+					<svg class="gallery_icon" viewBox="0 0 32 32" aria-hidden="true">
+						<path
+							d="M31.008 27.231l-7.58-6.447c-0.784-0.705-1.622-1.029-2.299-0.998 1.789-2.096 2.87-4.815 2.87-7.787 0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12c2.972 0 5.691-1.081 7.787-2.87-0.031 0.677 0.293 1.515 0.998 2.299l6.447 7.58c1.104 1.226 2.907 1.33 4.007 0.23s0.997-2.903-0.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z">
+						</path>
+					</svg>
+				</div>
+			</a>
+			<a href="https://konradbednarek.github.io/portfolio" target="_blank" rel="noopener" class="gallery_item">
+				<span class="hide">Projekt strony - Bednarek</span>
+				<div class="gallery_wrapper">
+					<svg class="gallery_icon" viewBox="0 0 32 32" aria-hidden="true">
+						<path
+							d="M31.008 27.231l-7.58-6.447c-0.784-0.705-1.622-1.029-2.299-0.998 1.789-2.096 2.87-4.815 2.87-7.787 0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12c2.972 0 5.691-1.081 7.787-2.87-0.031 0.677 0.293 1.515 0.998 2.299l6.447 7.58c1.104 1.226 2.907 1.33 4.007 0.23s0.997-2.903-0.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z">
+						</path>
+					</svg>
+				</div>
+			</a>
+			<a href="https://wglugla.github.io/PSDtoHTML-1" target="_blank" rel="noopener" class="gallery_item">
+				<span class="hide">Projekt strony - Namaste</span>
+				<div class="gallery_wrapper">
+					<svg class="gallery_icon" viewBox="0 0 32 32" aria-hidden="true">
+						<path
+							d="M31.008 27.231l-7.58-6.447c-0.784-0.705-1.622-1.029-2.299-0.998 1.789-2.096 2.87-4.815 2.87-7.787 0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12c2.972 0 5.691-1.081 7.787-2.87-0.031 0.677 0.293 1.515 0.998 2.299l6.447 7.58c1.104 1.226 2.907 1.33 4.007 0.23s0.997-2.903-0.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z">
+						</path>
+					</svg>
+				</div>
+			</a>
+			<a href="https://wglugla.github.io/attention-redux-form" target="_blank" rel="noopener"
+				class="gallery_item">
+				<span class="hide">Projekt strony - Redux Form</span>
+				<div class="gallery_wrapper">
+					<svg class="gallery_icon" viewBox="0 0 32 32" aria-hidden="true">
+						<path
+							d="M31.008 27.231l-7.58-6.447c-0.784-0.705-1.622-1.029-2.299-0.998 1.789-2.096 2.87-4.815 2.87-7.787 0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12c2.972 0 5.691-1.081 7.787-2.87-0.031 0.677 0.293 1.515 0.998 2.299l6.447 7.58c1.104 1.226 2.907 1.33 4.007 0.23s0.997-2.903-0.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z">
+						</path>
+					</svg>
+				</div>
+			</a>
+		</div>
+	</section>
+
+	<div id="kontakt"></div>
+	<section class="section section--lower">
+		<div class="contact-boxs">
+			<a href="./" class="boxs_item">
+				<div class="boxs_item__img img_konrad"></div>
+				<p class="boxs_item__title">Konrad Bednarek</p>
+			</a>
+			<a href="./" class="boxs_item">
+				<div class="boxs_item__img img_wojciech"></div>
+				<p class="boxs_item__title">Wojciech Glugla</p>
+			</a>
+			<a href="./" class="boxs_item">
+				<div class="boxs_item__img img_magdalena"></div>
+				<p class="boxs_item__title">Magdalena Kozik</p>
+			</a>
+		</div>
+		<div class="contact_info">
+			<h2 class="info_header">Kontakt</h2>
+			<p class="info_desc">Skontaktuj się z nami! Podejmijmy współpracę i stwórzmy dla Ciebie idealny projekt.</p>
+			<h3 class="info_subheader"><svg class="info_icon" aria-hidden="true" viewBox="0 0 32 32">
+					<path
+						d="M29 4h-26c-1.65 0-3 1.35-3 3v20c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3v-20c0-1.65-1.35-3-3-3zM12.461 17.199l-8.461 6.59v-15.676l8.461 9.086zM5.512 8h20.976l-10.488 7.875-10.488-7.875zM12.79 17.553l3.21 3.447 3.21-3.447 6.58 8.447h-19.579l6.58-8.447zM19.539 17.199l8.461-9.086v15.676l-8.461-6.59z">
+					</path>
+				</svg>email</h3>
+			<p class="info_data">kontakt.beshin@gmail.com</p>
+			<h3 class="info_subheader"><svg class="info_icon" aria-hidden="true" viewBox="0 0 32 32">
+					<path
+						d="M22 20c-2 2-2 4-4 4s-4-2-6-4-4-4-4-6 2-2 4-4-4-8-6-8-6 6-6 6c0 4 4.109 12.109 8 16s12 8 16 8c0 0 6-4 6-6s-6-8-8-6z">
+					</path>
+				</svg>telefon</h3>
+			<p class="info_data">+48 725 376 926</p>
+			<h3 class="info_subheader">social media</h3>
+			<div class="info_social">
+				<a href="https://www.facebook.com/b3shin" target="_blank" rel="noopener" class="social_icon fb"
+					aria-label="Facebook">
+					<svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
+						<path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z">
+						</path>
+					</svg>
+				</a>
+				<a href="https://www.facebook.com/b3shin" target="_blank" rel="noopener" class="social_icon yt"
+					aria-label="YouTube">
+					<svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
+						<path
+							d="M31.681 9.6c0 0-0.313-2.206-1.275-3.175-1.219-1.275-2.581-1.281-3.206-1.356-4.475-0.325-11.194-0.325-11.194-0.325h-0.012c0 0-6.719 0-11.194 0.325-0.625 0.075-1.987 0.081-3.206 1.356-0.963 0.969-1.269 3.175-1.269 3.175s-0.319 2.588-0.319 5.181v2.425c0 2.587 0.319 5.181 0.319 5.181s0.313 2.206 1.269 3.175c1.219 1.275 2.819 1.231 3.531 1.369 2.563 0.244 10.881 0.319 10.881 0.319s6.725-0.012 11.2-0.331c0.625-0.075 1.988-0.081 3.206-1.356 0.962-0.969 1.275-3.175 1.275-3.175s0.319-2.587 0.319-5.181v-2.425c-0.006-2.588-0.325-5.181-0.325-5.181zM12.694 20.15v-8.994l8.644 4.513-8.644 4.481z">
+						</path>
+					</svg>
+				</a>
+				<a href="https://www.linkedin.com/company/beshin" target="_blank" rel="noopener" class="social_icon li"
+					aria-label="LinkedIn">
+					<svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
+						<path
+							d="M12 12h5.535v2.837h0.079c0.77-1.381 2.655-2.837 5.464-2.837 5.842 0 6.922 3.637 6.922 8.367v9.633h-5.769v-8.54c0-2.037-0.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 4.509v8.688h-5.767v-18z">
+						</path>
+						<path d="M2 12h6v18h-6v-18z"></path>
+						<path d="M8 7c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
+					</svg>
+				</a>
+			</div>
+		</div>
+		<div class="contact_desc">
+			<p class="desc_header">Zrealizujemy Twoją wizję</p>
+			<p class="desc_content">Tworzenie strony WWW to proces złożony i bardzo ważny dla wizerunku Twojej firmy.
+				Naszym
+				celem jest nie dopuszczenie aby ktoś go zepsuł. Chcemy aby każdy nasz klient był dumny z projektu oraz
+				zobaczył
+				realne efekty w postaci zwiększonej sprzedaży. Postaw na ludzi, których ideą jest tworzenie jak
+				najlepszych stron.
+				Postaw na Beshin!</p>
+			<div class="btn-wrapper"><a href="mailto:kontakt.beshin@gmail.com" class="btn hvr-pulse">napisz do nas
+					<svg class="icon-btn" viewBox="0 0 32 32" aria-hidden="true">
+						<path
+							d="M19.414 27.414l10-10c0.781-0.781 0.781-2.047 0-2.828l-10-10c-0.781-0.781-2.047-0.781-2.828 0s-0.781 2.047 0 2.828l6.586 6.586h-19.172c-1.105 0-2 0.895-2 2s0.895 2 2 2h19.172l-6.586 6.586c-0.39 0.39-0.586 0.902-0.586 1.414s0.195 1.024 0.586 1.414c0.781 0.781 2.047 0.781 2.828 0z">
+						</path>
+					</svg>
+				</a></div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="footer_text">
+			Copyright &copy; Beshin 2018
+		</div>
+		<div class="footer_social">
+			<a href="https://www.facebook.com/b3shin" target="_blank" rel="noopener"
+				class="hvr-forward fb-footer">Facebook</a>
+			<a href="https://www.facebook.com/b3shin" target="_blank" rel="noopener"
+				class="hvr-forward yt-footer">YouTube</a>
+			<a href="https://www.linkedin.com/company/beshin" target="_blank" rel="noopener"
+				class="hvr-forward li-footer">LinkedIn</a>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
